@@ -12,6 +12,22 @@ export const metadata: Metadata = {
     description:
       "Personal portfolio of Evan Reppeto, a Computer Science student at Ohio Dominican University specializing in AI development.",
     type: "website",
+    url: "https://evanreppeto-personal-portfolio.vercel.app",
+    siteName: "Evan Reppeto",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Evan Reppeto — CS Student & AI Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Evan Reppeto — CS Student & AI Developer",
+    description:
+      "Personal portfolio of Evan Reppeto, a Computer Science student at Ohio Dominican University specializing in AI development.",
   },
 };
 
